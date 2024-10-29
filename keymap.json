@@ -6,12 +6,14 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
+  // "スペース+e"でファイルツリーにフォーカス
   {
     "context": "Editor",
     "bindings": {
       "space e": "project_panel::ToggleFocus",
     }
   },
+  // vimのキーでファイルツリーを操作
   {
     "context": "ProjectPanel && not_editing",
     "bindings": {
