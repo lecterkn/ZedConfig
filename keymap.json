@@ -30,7 +30,7 @@
       "j": "menu::SelectNext",
       "h": "project_panel::CollapseSelectedEntry",
       "l": "project_panel::ExpandSelectedEntry",
-      "o": "project_panel::Open"
+      "o": "editor::OpenFile"
     }
   },
   {
