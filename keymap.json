@@ -13,6 +13,15 @@
       "space e": "project_panel::ToggleFocus",
     }
   },
+  // バッファ切り替え
+  {
+    "context": "Editor",
+    "bindings": {
+      "shift-left": "pane::ActivatePrevItem",
+      "shift-right": "pane::ActivateNextItem",
+      "shift-c": "pane::CloseActiveItem"
+    }
+  },
   // vimのキーでファイルツリーを操作
   {
     "context": "ProjectPanel && not_editing",
